@@ -10,7 +10,49 @@ h1 {
 table, th, td {
     border: 1px solid white;
     border-collapse: collapse;
-  }
-  th, td {
+}
+
+th, td {
     background-color: #96D4D4;
   }
+
+img {
+    height: 25px;
+    width: 25px;
+}
+
+.medalhas{
+    height: 30px;
+    width: 30px;
+}
+
+td{
+    text-align: center;
+    width: 25px;
+}
+
+
+.pais{
+    text-align: left;
+    width: 100px;
+}
+
+/*
+td:nth é um acesso direto em atributo da tag td, nesse caso estamos pegando a linha 1 por completo 
+td:nth-child(1){
+    width: 15px;
+}
+
+/* td:nth é um acesso direto em atributo da tag td, nesse caso estamos pegando a linha 1 por completo */
+td:nth-child(3){
+    text-align: left;
+    width: 200px;
+}
+
+/* img:hover{
+    transform: scale(5);
+}*/
+
+table tr:hover{
+    background-color: yellow;
+}
